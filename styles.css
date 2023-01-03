@@ -1,0 +1,69 @@
+@font-face{
+    font-family:'OPPOSans-Bold';
+    src:
+        url('https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSans-B.woff2') format("woff2"),
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSans-B.woff) format("woff"),
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSans-B.ttf) format("truetype"),
+        url(https://www.oppo.com/cn/assets/src/fonts/zh-CN/OPPOSansB/OPPOSans-B.svg) format("svg"),
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSans-B.eot) format("embedded-opentype");
+    font-weight:200;
+    font-style:normal;
+    font-display:swap
+}
+@font-face{
+    font-family:'OPPOSans-Medium';
+    src:
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSans-M.woff2) format("woff2"),
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSans-M.woff) format("woff"),
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSans-M.ttf) format("truetype"),
+        url(https://www.oppo.com/cn/assets/src/fonts/zh-CN/OPPOSansM/OPPOSans-M.svg) format("svg"),
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSans-M.eot) format("embedded-opentype");
+    font-weight:200;
+    font-style:normal;
+    font-display:swap
+}
+@font-face{
+    font-family:'OPPOSans-Regular';
+    src:
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSans-R.woff2) format("woff2"),
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSans-R.woff) format("woff"),
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSans-R.ttf) format("truetype"),
+        url(https://www.oppo.com/cn/assets/src/fonts/zh-CN/OPPOSansR/OPPOSans-R.svg) format("svg"),
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSans-R.eot) format("embedded-opentype");
+    font-weight:200;
+    font-style:normal;
+    font-display:swap
+}
+@font-face{
+    font-family:'OPPOSans-Ver2-Bold';
+    src:
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.woff2) format("woff2"),
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.woff) format("woff"),
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.ttf) format("truetype"),
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.eot) format("embedded-opentype");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap
+}
+@font-face{
+    font-family:'OPPOSans-Ver2-Medium';
+    src:
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.woff2) format("woff2"),
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.woff) format("woff"),
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.ttf) format("truetype"),
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.eot) format("embedded-opentype");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap
+}
+@font-face{
+    font-family:'OPPOSans-Ver2-Regular';
+    src:
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.woff2) format("woff2"),
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.woff) format("woff"),
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.ttf) format("truetype"),
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.eot) format("embedded-opentype");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap
+}
