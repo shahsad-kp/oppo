@@ -441,6 +441,16 @@ a{
     height: auto;
 }
 
+.sections-title{
+    padding-bottom: 36px;
+    text-align: left;
+    font-size: 36px;
+    line-height: 44px;
+    display: inline-block;
+    font-variation-settings: 'wght' 550;
+    margin: 0;
+}
+
 .section-three{
     height: auto;
     width: 100%;
@@ -459,9 +469,9 @@ a{
 }
 
 .section-five{
-    height: 762.188px;
+    height: auto;
     width: 100%;
-    background-color: lightgreen;
+    background-color: #F3F3F3;
 }
 
 .section-six{
