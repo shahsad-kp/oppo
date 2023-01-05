@@ -71,6 +71,11 @@
 body{
     margin: 0px;
     padding: 0px;
+    font-family: 'OPPOSans-Ver2-Regular','OPPOSans-Regular',Helvetica,Arial,sans-serif,system-ui;
+}
+
+a{
+    text-decoration: none;
 }
 
 *{
@@ -78,6 +83,7 @@ body{
 }
 
 .root{
+    overflow-x: hidden;
     width: 100%;
     height: 100%;
 }
@@ -88,9 +94,11 @@ body{
     height: 52px;
     background: #fff;
     display: block;
+    z-index: 1;
 }
 
 .header-div{
+    z-index: 1;
     height: 100%;
     width: auto;
     position: relative;
@@ -115,6 +123,7 @@ body{
 }
 
 .header-nav{
+    z-index: 1;
     display: flex; 
     list-style: none; 
     padding: 0; 
@@ -132,6 +141,7 @@ body{
     font-weight: 750;
     padding-left: 12px;
     padding-right: 12px;
+    cursor: pointer;
 }
 .head-nav:hover{
     color: black;
@@ -168,6 +178,8 @@ body{
 .fill{
     fill: black;
     opacity: .55;
+    border: none;
+    transition: all .25s;
 }
 
 .fill:hover{
@@ -205,19 +217,240 @@ body{
     height: 768px;
     margin-top: 52px;
     width: 100%;
-    background-color: lightcoral;
+    background: url(/images/section-one.webp);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+}
+
+.section-one-banner{
+    width: auto;
+    color: #FFFFFF;
+    margin-left: 108px;
+}
+
+#title{
+    font-size: 52px;
+    line-height: 72px;
+    font-family: 'OPPOSans-Ver2-Medium';
+    font-weight:  750;
+    margin: 0;
+}
+
+#subtitle{
+    margin-top: 12px;
+    font-size: 28px;
+    line-height: 44px;
+    font-family: 'OPPOSans-Ver2-Medium';
+    font-weight: 750;
+}
+
+#description{
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    opacity: .56;
+}
+
+#learn-more{
+    width: 135px;
+    margin-top: 32px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-family: 'OPPOSans-Ver2-Medium';
+    font-variation-settings: 'wght' 750;
+    color: #000;
+    line-height: 28px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#learn-more:hover{
+    opacity: .9;
+}
+
+.inner-section{
+    padding-top: 128px;
+    padding-bottom: 128px;
+    margin-left: 103.6px;
+    margin-right: 103.6px;
+    width: auto;
+    overflow-x: hidden;
+}
+
+.card-image-back{
+    background-color: transparent;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.card-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    scale: 1.3;
+    transition: transform .25s;
+}
+
+.card-image:hover{
+    transform: scale(.9);
+}
+
+.card-title{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 16px;
+    line-height: 170%;
+    font-family: 'OPPOSans-Ver2-Medium';
+    font-variation-settings: 'wght' 450;
+}
+
+.tag{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 14px;
+    color: #2ec84d;
+    font-size: 8px;
+    line-height: 14px;
+    font-family: 'OPPOSans-Ver2-Medium';
+    font-variation-settings: 'wght' 750;
+}
+
+.card-description{
+    width: max-content;
+    margin-top: 3px;
+    font-size: 14px;
+    line-height: 150%;
+    opacity: 1;
+    text-align: left;
+    font-variation-settings: 'wght' 150;
+    overflow-wrap: break-word;
+}
+
+.card-actions{
+    margin-top: 10px;
+    padding-bottom: 4px;
+    font-size: 12px;
+}
+
+.card-button{
+    background-color: #000;
+    display: inline-block;
+    color: #fff;
+    border: 0;
+    padding: 6px 16px;
+    border-radius: 2px;
+    margin-right: 12px;
+}
+
+.card-learn-more{
+    padding-bottom: 2px;
+    border-bottom: 1px solid;
+    margin-right: 12px;
+    font-weight: 500;
+    line-height: 170%;
+    font-family: 'OPPOSans-Ver2-Regular';
+    font-variation-settings: 'wght' 550;
+    color: #000;
+}
+
+.hover-card-element:hover{
+    opacity: .7;
+}
+
+.card-price{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'OPPOSans-Ver2-regular';
+    font-variation-settings: 'wght' 501;
+    padding-top: 12px;
+    margin-bottom: -5px;
+}
+
+.card-price-underlined{
+    margin-left: 6px;
+    color: #0000004d;
+    text-decoration: line-through;
+}
+
+.horizontal-scrolling{
+    display: flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+    padding-bottom: 40px;
+}
+
+.horizontal-scrolling::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.horizontal-scrolling::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgba(85, 85, 85, 0.585);
+    display: none;
+    transition: all 3s;
+}
+
+.horizontal-scrolling::-webkit-scrollbar {
+    height: 4px;
+    width: 12px;
+    background-color: #f5f5f500;
+}
+
+.horizontal-scrolling::-webkit-scrollbar-thumb:hover {
+    display:block;
+}
+
+.horizontal-scrolling:hover::-webkit-scrollbar-thumb{
+    display: block;
 }
 
 .section-two{
-    height: 1408.720px;
     width: 100%;
-    background-color: lightcyan;
+    background-color: #F3F3F3;
+}
+
+.section-two-title{
+    font-size: 42px;
+    font-family: 'OPPOSans-Ver2-Regular';
+    font-variation-settings: 'wght' 550;
+    line-height: 120%;
+    margin: 0;
+    margin-bottom: 48px;
+}
+
+.section-two-product-contents{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#section-two-left{
+    width: 652px;
+    height: auto;
+}
+
+#section-two-right{
+    width: 490px;
+    height: auto;
 }
 
 .section-three{
-    height: 786.188px;
+    height: auto;
     width: 100%;
-    background-color: lightgoldenrodyellow;
+    background-color: white;
+}
+
+.section-three-small-card{
+    height:auto;
+    width: 424px;
+    margin-right: 20px;
 }
 
 .section-four{
