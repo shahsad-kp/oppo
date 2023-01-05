@@ -454,9 +454,8 @@ a{
 }
 
 .section-four{
-    height: 633.188px;
+    height: auto;
     width: 100%;
-    background-color: lightgray;
 }
 
 .section-five{
