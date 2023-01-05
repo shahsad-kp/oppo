@@ -143,6 +143,7 @@ a{
     padding-right: 12px;
     cursor: pointer;
 }
+
 .head-nav:hover{
     color: black;
 }
@@ -284,6 +285,7 @@ a{
     background-color: transparent;
     overflow: hidden;
     z-index: -1;
+    cursor: pointer;
 }
 
 .card-image{
@@ -291,7 +293,7 @@ a{
     height: 100%;
     object-fit: cover;
     position: relative;
-    scale: 1.3;
+    scale: 1.1;
     transition: transform .25s;
 }
 
@@ -308,6 +310,7 @@ a{
     line-height: 170%;
     font-family: 'OPPOSans-Ver2-Medium';
     font-variation-settings: 'wght' 450;
+    cursor: pointer;
 }
 
 .tag{
@@ -330,6 +333,7 @@ a{
     text-align: left;
     font-variation-settings: 'wght' 150;
     overflow-wrap: break-word;
+    cursor: pointer;
 }
 
 .card-actions{
@@ -346,6 +350,7 @@ a{
     padding: 6px 16px;
     border-radius: 2px;
     margin-right: 12px;
+    cursor: pointer;
 }
 
 .card-learn-more{
@@ -357,6 +362,7 @@ a{
     font-family: 'OPPOSans-Ver2-Regular';
     font-variation-settings: 'wght' 550;
     color: #000;
+    cursor: pointer;
 }
 
 .hover-card-element:hover{
@@ -477,7 +483,6 @@ a{
 .section-six{
     height: 738.188px;
     width: 100%;
-    background-color: lightpink;
 }
 
 .section-seven{
