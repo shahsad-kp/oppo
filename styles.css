@@ -69,12 +69,12 @@
 }
 @font-face{
     font-family:'icomoon';
-    src:url(/fonts/fonts/icomoon.eot);
+    src:url(fonts/fonts/icomoon.eot);
     src:
-    url(/fonts/fonts/icomoon.eot) format("embedded-opentype"),
-    url(/fonts/fonts/icomoon.ttf) format("truetype"),
-    url(/fonts/fonts/icomoon.woff) format("woff"),
-    url(/fonts/fonts/icomoon.svg) format("svg");
+    url(fonts/fonts/icomoon.eot) format("embedded-opentype"),
+    url(fonts/fonts/icomoon.ttf) format("truetype"),
+    url(fonts/fonts/icomoon.woff) format("woff"),
+    url(fonts/fonts/icomoon.svg) format("svg");
     font-weight:normal;
     font-style:normal;
     font-display:swap
@@ -235,7 +235,7 @@ a{
     height: 768px;
     margin-top: 52px;
     width: 100%;
-    background: url(/images/section-one.webp);
+    background: url(images/section-one.webp);
     background-size: cover;
     display: flex;
     align-items: center;
