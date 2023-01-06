@@ -742,3 +742,32 @@ dt{
 .instagram::before{
     content: "\ea92";
 }
+
+.bottom-footer{
+    margin: 32rem 39.6rem;
+    padding: 0rem 60rem;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+}
+
+.footer-links{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.footer-link{
+    font-variation-settings: 'wght' 550;
+    color: rgba(255,255,255,0.6);
+    margin: 0;
+    padding: 0;
+    font-size: 12rem;
+    margin-right: 20rem;
+}
+
+.country{
+    width: max-content;
+    color: #fff;
+    border-bottom: 1rem solid #fff;
+}
