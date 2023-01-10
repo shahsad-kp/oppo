@@ -1,96 +1,102 @@
-@font-face{
-    font-family:'OPPOSans-Bold';
+@font-face {
+    font-family: 'OPPOSans-Bold';
     src:
         url('https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSans-B.woff2') format("woff2"),
         url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSans-B.woff) format("woff"),
         url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSans-B.ttf) format("truetype"),
         url(https://www.oppo.com/cn/assets/src/fonts/zh-CN/OPPOSansB/OPPOSans-B.svg) format("svg"),
         url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSans-B.eot) format("embedded-opentype");
-    font-weight:200;
-    font-style:normal;
-    font-display:swap
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap
 }
-@font-face{
-    font-family:'OPPOSans-Medium';
+
+@font-face {
+    font-family: 'OPPOSans-Medium';
     src:
         url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSans-M.woff2) format("woff2"),
         url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSans-M.woff) format("woff"),
         url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSans-M.ttf) format("truetype"),
         url(https://www.oppo.com/cn/assets/src/fonts/zh-CN/OPPOSansM/OPPOSans-M.svg) format("svg"),
         url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSans-M.eot) format("embedded-opentype");
-    font-weight:200;
-    font-style:normal;
-    font-display:swap
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap
 }
-@font-face{
-    font-family:'OPPOSans-Regular';
+
+@font-face {
+    font-family: 'OPPOSans-Regular';
     src:
         url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSans-R.woff2) format("woff2"),
         url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSans-R.woff) format("woff"),
         url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSans-R.ttf) format("truetype"),
         url(https://www.oppo.com/cn/assets/src/fonts/zh-CN/OPPOSansR/OPPOSans-R.svg) format("svg"),
         url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSans-R.eot) format("embedded-opentype");
-    font-weight:200;
-    font-style:normal;
-    font-display:swap
-}
-@font-face{
-    font-family:'OPPOSans-Ver2-Bold';
-    src:
-        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.woff2) format("woff2"),
-        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.woff) format("woff"),
-        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.ttf) format("truetype"),
-        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.eot) format("embedded-opentype");
-    font-weight:400;
-    font-style:normal;
-    font-display:swap
-}
-@font-face{
-    font-family:'OPPOSans-Ver2-Medium';
-    src:
-        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.woff2) format("woff2"),
-        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.woff) format("woff"),
-        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.ttf) format("truetype"),
-        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.eot) format("embedded-opentype");
-    font-weight:400;
-    font-style:normal;
-    font-display:swap
-}
-@font-face{
-    font-family:'OPPOSans-Ver2-Regular';
-    src:
-        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.woff2) format("woff2"),
-        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.woff) format("woff"),
-        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.ttf) format("truetype"),
-        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.eot) format("embedded-opentype");
-    font-weight:400;
-    font-style:normal;
-    font-display:swap
-}
-@font-face{
-    font-family:'icomoon';
-    src:url(fonts/fonts/icomoon.eot);
-    src:
-    url(fonts/fonts/icomoon.eot) format("embedded-opentype"),
-    url(fonts/fonts/icomoon.ttf) format("truetype"),
-    url(fonts/fonts/icomoon.woff) format("woff"),
-    url(fonts/fonts/icomoon.svg) format("svg");
-    font-weight:normal;
-    font-style:normal;
-    font-display:swap
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap
 }
 
-html{
+@font-face {
+    font-family: 'OPPOSans-Ver2-Bold';
+    src:
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.woff2) format("woff2"),
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.woff) format("woff"),
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.ttf) format("truetype"),
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.eot) format("embedded-opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: 'OPPOSans-Ver2-Medium';
+    src:
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.woff2) format("woff2"),
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.woff) format("woff"),
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.ttf) format("truetype"),
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.eot) format("embedded-opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: 'OPPOSans-Ver2-Regular';
+    src:
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.woff2) format("woff2"),
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.woff) format("woff"),
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.ttf) format("truetype"),
+        url(https://www.oppo.com/etc.clientlibs/global-site/clientlibs/ui.frontend/clientlib-design/resources/fonts/OPPOSansWeb2.eot) format("embedded-opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url(fonts/fonts/icomoon.eot);
+    src:
+        url(fonts/fonts/icomoon.eot) format("embedded-opentype"),
+        url(fonts/fonts/icomoon.ttf) format("truetype"),
+        url(fonts/fonts/icomoon.woff) format("woff"),
+        url(fonts/fonts/icomoon.svg) format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap
+}
+
+html {
     font-size: calc(100vw / 1519.2);
 }
 
-body{
+body {
     margin: 0rem;
     padding: 0rem;
-    font-family: 'OPPOSans-Ver2-Regular','OPPOSans-Regular',Helvetica,Arial,sans-serif,system-ui;
+    font-family: 'OPPOSans-Ver2-Regular', 'OPPOSans-Regular', Helvetica, Arial, sans-serif, system-ui;
 }
 
-a{
+a {
     text-decoration: none;
     color: black
 }
@@ -99,26 +105,27 @@ a{
     outline: none;
 }
 
-*{
+* {
     box-sizing: border-box;
 }
 
-.root{
+.root {
     overflow-x: hidden;
     width: 100%;
     height: 100%;
 }
-.header{
+
+.header {
     width: 100%;
     position: fixed;
-    top:0;
+    top: 0;
     height: 52rem;
     background: #fff;
     display: block;
     z-index: 1;
 }
 
-.header-div{
+.header-div {
     z-index: 1;
     height: 100%;
     width: auto;
@@ -136,45 +143,45 @@ a{
     border-bottom-style: solid;
 }
 
-.header-sections{
+.header-sections {
     width: auto;
     height: 100%;
-    display:flex;
+    display: flex;
     align-items: center;
 }
 
-.header-nav{
+.header-nav {
     z-index: 1;
-    display: flex; 
-    list-style: none; 
-    padding: 0; 
+    display: flex;
+    list-style: none;
+    padding: 0;
     margin: 0;
 }
 
-.head-nav-items-right{
+.head-nav-items-right {
     font-family: 'OPPOSans-Ver2-Medium';
     font-weight: 700;
 }
 
-.head-nav{
+.head-nav {
     font-size: 14rem;
-    color: rgba(0,0,0,0.55);
+    color: rgba(0, 0, 0, 0.55);
     font-weight: 750;
     padding-left: 12rem;
     padding-right: 12rem;
     cursor: pointer;
 }
 
-.head-nav:hover{
+.head-nav:hover {
     color: black;
 }
 
-.header-support-items{
-    font-family: 'OPPOSans-Ver2-Regular','OPPOSans-Regular',Helvetica,Arial,sans-serif,system-ui;
+.header-support-items {
+    font-family: 'OPPOSans-Ver2-Regular', 'OPPOSans-Regular', Helvetica, Arial, sans-serif, system-ui;
     font-weight: 400;
 }
 
-.search{
+.search {
     padding: 8rem 12rem;
     background: #f6f6f6;
     border-radius: 32rem;
@@ -184,7 +191,7 @@ a{
     align-items: center;
 }
 
-.search-placeholder{
+.search-placeholder {
     width: 185rem;
     height: 20rem;
     line-height: 20rem;
@@ -194,21 +201,21 @@ a{
     outline: 0;
     border: 0;
     background: transparent;
-    color: rgba(0,0,0,0.95);
+    color: rgba(0, 0, 0, 0.95);
 }
 
-.fill{
+.fill {
     fill: black;
     opacity: .55;
     border: none;
     transition: all .25s;
 }
 
-.fill:hover{
+.fill:hover {
     opacity: 1;
 }
 
-.user-cart{
+.user-cart {
     display: flex;
     flex-wrap: wrap;
     padding-right: 0;
@@ -217,25 +224,25 @@ a{
     justify-content: space-between;
 }
 
-.usercart-element{
+.usercart-element {
     height: 24rem;
     width: 24rem;
 }
 
-.usercart-element:hover{
-    background: rgba(0,0,0,0.06);
+.usercart-element:hover {
+    background: rgba(0, 0, 0, 0.06);
     border-radius: 50%;
 }
 
-.icon-image{
+.icon-image {
     width: 100%;
     height: 100%;
-    object-fit:fill;
+    object-fit: fill;
     color: black;
     opacity: 1;
 }
 
-.section-one{
+.section-one {
     height: 768rem;
     margin-top: 52rem;
     width: 100%;
@@ -245,21 +252,21 @@ a{
     align-items: center;
 }
 
-.section-one-banner{
+.section-one-banner {
     width: auto;
     color: #FFFFFF;
     margin-left: 108rem;
 }
 
-#title{
+#title {
     font-size: 52rem;
     line-height: 72rem;
     font-family: 'OPPOSans-Ver2-Medium';
-    font-weight:  750;
+    font-weight: 750;
     margin: 0;
 }
 
-#subtitle{
+#subtitle {
     margin-top: 12rem;
     font-size: 28rem;
     line-height: 44rem;
@@ -267,7 +274,7 @@ a{
     font-weight: 750;
 }
 
-#description{
+#description {
     margin-top: 12rem;
     font-size: 14rem;
     line-height: 24rem;
@@ -275,7 +282,7 @@ a{
     opacity: .56;
 }
 
-#learn-more{
+#learn-more {
     width: 135rem;
     margin-top: 32rem;
     padding: 12rem 24rem;
@@ -288,11 +295,11 @@ a{
     cursor: pointer;
 }
 
-#learn-more:hover{
+#learn-more:hover {
     opacity: .9;
 }
 
-.inner-section{
+.inner-section {
     padding-top: 128rem;
     padding-bottom: 128rem;
     margin-left: 103.6rem;
@@ -301,14 +308,14 @@ a{
     overflow-x: hidden;
 }
 
-.card-image-back{
+.card-image-back {
     background-color: transparent;
     overflow: hidden;
     z-index: -1;
     cursor: pointer;
 }
 
-.card-image{
+.card-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -317,11 +324,11 @@ a{
     transition: transform .25s;
 }
 
-.card-image:hover{
+.card-image:hover {
     transform: scale(.9);
 }
 
-.card-title{
+.card-title {
     display: flex;
     align-items: center;
     font-size: 20rem;
@@ -333,7 +340,7 @@ a{
     cursor: pointer;
 }
 
-.tag{
+.tag {
     display: inline-block;
     text-transform: uppercase;
     margin-left: 14rem;
@@ -344,7 +351,7 @@ a{
     font-variation-settings: 'wght' 750;
 }
 
-.card-description{
+.card-description {
     width: max-content;
     margin-top: 3rem;
     font-size: 14rem;
@@ -356,13 +363,13 @@ a{
     cursor: pointer;
 }
 
-.card-actions{
+.card-actions {
     margin-top: 10rem;
     padding-bottom: 4rem;
     font-size: 12rem;
 }
 
-.card-button{
+.card-button {
     background-color: #000;
     display: inline-block;
     color: #fff;
@@ -373,7 +380,7 @@ a{
     cursor: pointer;
 }
 
-.card-learn-more{
+.card-learn-more {
     padding-bottom: 2rem;
     border-bottom: 1rem solid;
     margin-right: 12rem;
@@ -385,11 +392,11 @@ a{
     cursor: pointer;
 }
 
-.hover-card-element:hover{
+.hover-card-element:hover {
     opacity: .7;
 }
 
-.card-price{
+.card-price {
     font-size: 14rem;
     line-height: 20rem;
     font-family: 'OPPOSans-Ver2-regular';
@@ -398,13 +405,13 @@ a{
     margin-bottom: -5rem;
 }
 
-.card-price-underlined{
+.card-price-underlined {
     margin-left: 6rem;
     color: #0000004d;
     text-decoration: line-through;
 }
 
-.horizontal-scrolling{
+.horizontal-scrolling {
     display: flex;
     overflow-x: scroll;
     white-space: nowrap;
@@ -429,19 +436,19 @@ a{
 }
 
 .horizontal-scrolling::-webkit-scrollbar-thumb:hover {
-    display:block;
-}
-
-.horizontal-scrolling:hover::-webkit-scrollbar-thumb{
     display: block;
 }
 
-.section-two{
+.horizontal-scrolling:hover::-webkit-scrollbar-thumb {
+    display: block;
+}
+
+.section-two {
     width: 100%;
     background-color: #F3F3F3;
 }
 
-.section-two-title{
+.section-two-title {
     font-size: 42rem;
     font-family: 'OPPOSans-Ver2-Regular';
     font-variation-settings: 'wght' 550;
@@ -450,23 +457,23 @@ a{
     margin-bottom: 48rem;
 }
 
-.section-two-product-contents{
+.section-two-product-contents {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-#section-two-left{
+#section-two-left {
     width: 652rem;
     height: auto;
 }
 
-#section-two-right{
+#section-two-right {
     width: 490rem;
     height: auto;
 }
 
-.sections-title{
+.sections-title {
     padding-bottom: 36rem;
     text-align: left;
     font-size: 36rem;
@@ -476,35 +483,35 @@ a{
     margin: 0;
 }
 
-.section-three{
+.section-three {
     height: auto;
     width: 100%;
     background-color: white;
 }
 
-.section-three-small-card{
-    height:auto;
+.section-three-small-card {
+    height: auto;
     width: 424rem;
     margin-right: 20rem;
 }
 
-.section-four{
+.section-four {
     height: auto;
     width: 100%;
 }
 
-.section-five{
+.section-five {
     height: auto;
     width: 100%;
     background-color: #F3F3F3;
 }
 
-.section-six{
+.section-six {
     height: auto;
     width: 100%;
 }
 
-.section-seven{
+.section-seven {
     height: 456rem;
     width: 100%;
     background-color: #f9f4ec;
@@ -515,14 +522,14 @@ a{
     font-variation-settings: 'wght' 550;
 }
 
-.section-seven-title{
+.section-seven-title {
     font-size: 36rem;
     line-height: 43rem;
     margin: 0;
     margin-bottom: 20rem;
 }
 
-.section-seven-description{
+.section-seven-description {
     font-size: 16rem;
     line-height: 24rem;
     color: #666;
@@ -531,16 +538,16 @@ a{
     text-align: center;
 }
 
-.number-input-box{
-    height: 50rem; 
+.number-input-box {
+    height: 50rem;
     width: 100%;
     display: flex;
     margin-bottom: 20rem;
 }
 
 
-.section-seven-inline{
-    width: auto; 
+.section-seven-inline {
+    width: auto;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -548,7 +555,7 @@ a{
     align-items: center;
 }
 
-.number-input-area{
+.number-input-area {
     height: 100%;
     width: calc(100% - 128rem);
     background-color: white;
@@ -556,7 +563,7 @@ a{
     display: flex;
 }
 
-.number-input-place{
+.number-input-place {
     padding-left: 5rem;
     display: block;
     width: 100%;
@@ -567,14 +574,14 @@ a{
     background: #fff;
 }
 
-.country-code{
+.country-code {
     width: min-content;
     margin: 0;
     padding-right: 4rem;
-    border-right: 1rem solid rgba(0,0,0,0.15);
+    border-right: 1rem solid rgba(0, 0, 0, 0.15);
 }
 
-.subscribe-button{
+.subscribe-button {
     background: #999;
     display: flex;
     justify-content: center;
@@ -587,7 +594,7 @@ a{
     cursor: no-drop;
 }
 
-.clause{
+.clause {
     font-size: 12rem;
     line-height: 20rem;
     letter-spacing: -0.05rem;
@@ -596,44 +603,45 @@ a{
     width: 100%;
 }
 
-.footer{
+.footer {
     height: auto;
     width: 100%;
 }
 
-.footer-div{
+.footer-div {
     height: 763rem;
     width: 100%;
-    
+
     padding-top: 36rem;
-    background-color: #121212;;
+    background-color: #121212;
+    ;
 }
 
-.main-footer{
+.main-footer {
     position: relative;
     width: 100%;
     margin: auto;
-    padding: 32rem 99.6rem; 
+    padding: 32rem 99.6rem;
 }
 
-.footer-nav{
+.footer-nav {
     flex-direction: row;
     display: flex;
     list-style: none;
 }
 
-dl{
+dl {
     margin: 0;
     margin-bottom: 52rem;
     width: 200rem;
     margin-right: 20rem;
 }
 
-dd{
+dd {
     margin: 0;
 }
 
-dt{
+dt {
     margin: 0;
     font-family: 'OPPOSans-Ver2-Medium';
     font-variation-settings: 'wght' 750;
@@ -643,32 +651,32 @@ dt{
     padding-bottom: 12rem;
 }
 
-.footer-nav-element{
+.footer-nav-element {
     margin: 0;
     margin-bottom: 4rem;
-    color: rgba(255,255,255,0.6) !important;
+    color: rgba(255, 255, 255, 0.6) !important;
     display: block;
     font-size: 12rem;
     line-height: 20rem;
 }
 
 
-.contact-tab{
+.contact-tab {
     width: 221rem;
     height: auto;
 }
 
-.hotline{
+.hotline {
     font-family: 'OPPOSans-Ver2-Medium';
     font-variation-settings: 'wght' 750;
     font-size: 14rem;
     line-height: 24rem;
-    border-bottom: 1rem solid #fff;  
+    border-bottom: 1rem solid #fff;
     color: #fff;
     margin-bottom: 8rem;
 }
 
-.hotline-number{
+.hotline-number {
     margin-top: 16rem;
     margin-right: 20rem;
     color: #fff;
@@ -678,9 +686,9 @@ dt{
     line-height: 24rem;
 }
 
-.remarks-hotline{
+.remarks-hotline {
     font-variation-settings: 'wght' 550;
-    font-family: 'OPPOSans-Ver2-Regular','OPPOSans-Regular',Helvetica,Arial,sans-serif,system-ui;
+    font-family: 'OPPOSans-Ver2-Regular', 'OPPOSans-Regular', Helvetica, Arial, sans-serif, system-ui;
     margin: 0;
     padding: 0;
     font-size: 12rem;
@@ -690,18 +698,18 @@ dt{
     color: #666;
 }
 
-.contact-bottom{
+.contact-bottom {
     font-size: 14rem;
     font-variation-settings: 'wght' 550;
-    font-family: 'OPPOSans-Ver2-Regular', 'icomoon', 'OPPOSans-Regular',Helvetica,Arial,sans-serif,system-ui;
-    color: rgba(255,255,255,0.6);
+    font-family: 'OPPOSans-Ver2-Regular', 'icomoon', 'OPPOSans-Regular', Helvetica, Arial, sans-serif, system-ui;
+    color: rgba(255, 255, 255, 0.6);
     margin-top: 0;
     display: flex;
     justify-content: space-between;
 }
 
 
-.social-media{
+.social-media {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -712,7 +720,7 @@ dt{
     flex-direction: row;
 }
 
-.social-media-items{
+.social-media-items {
     margin: 0;
     padding: 0;
     margin-top: 24rem;
@@ -723,7 +731,7 @@ dt{
     width: 24rem;
     height: 24rem;
     border-radius: 100%;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     font-family: 'icomoon';
 }
 
@@ -731,42 +739,42 @@ dt{
     content: "\ea88";
 }
 
-.twitter::before{
+.twitter::before {
     content: "\ea96";
 }
 
-.youtube::before{
+.youtube::before {
     content: "\ea9d";
 }
 
-.instagram::before{
+.instagram::before {
     content: "\ea92";
 }
 
-.bottom-footer{
+.bottom-footer {
     margin: 32rem 39.6rem;
     padding: 0rem 60rem;
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.footer-links{
+.footer-links {
     list-style: none;
     display: flex;
     padding: 0;
 }
 
-.footer-link{
+.footer-link {
     font-variation-settings: 'wght' 550;
-    color: rgba(255,255,255,0.6);
+    color: rgba(255, 255, 255, 0.6);
     margin: 0;
     padding: 0;
     font-size: 12rem;
     margin-right: 20rem;
 }
 
-.country{
+.country {
     width: max-content;
     color: #fff;
     border-bottom: 1rem solid #fff;
